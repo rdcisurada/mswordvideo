@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Round Corner Shapes - RDCI</title>
+  <style>
+    /* Reset & base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 30px;
+      justify-items: center;
+      align-items: center;
+      min-height: 50vh; /* full page height */
+      background: linear-gradient(135deg, #f8f9fb, #e9ecf3);
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    /* Base shape style */
+    .shape {
+      width: 250px;
+      height: 150px;
+      border-radius: 25px;
+      background-color: #9b59b6;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      color: #fff;
+      font-size: 2em;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+      cursor: pointer;
+      letter-spacing: 2px;
+    }
+
+    .shape:hover {
+      transform: scale(1.08);
+      background-color: #8e44ad;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Different colors for each shape */
+    .round-1 { background-color: #9b59b6; }
+    .round-2 { background-color: #9b59b6; }
+    .round-3 { background-color: #9b59b6; }
+    .round-4 { background-color: #9b59b6; }
+    .round-5 { background-color: #9b59b6; }
+    .round-6 { background-color: #9b59b6; }
+    .round-7 { background-color: #9b59b6; }
+    .round-8 { background-color: #9b59b6; }
+
+  </style>
+</head>
+<body>
+  <div class="shape round-1"><a href="https://www.youtube.com/watch?v=yakonRf7PEg">mailing</a></div>
+  <div class="shape round-2">RDCI</div>
+  <div class="shape round-3">RDCI</div>
+  <div class="shape round-4">RDCI</div>
+  <div class="shape round-5">RDCI</div>
+  <div class="shape round-6">RDCI</div>
+  <div class="shape round-7">RDCI</div>
+  <div class="shape round-8">RDCI</div>
+</body>
+</html>
